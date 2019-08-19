@@ -1,0 +1,25 @@
+@Controller： 控制层注解
+
+@Service：?业务逻辑层注解
+
+@Repository：持久层注解
+
+@Autowired：自动注入bean
+
+@GetMapping：@RequestMapping(method = RequestMethod.GET)的缩写
+
+@RequestMapping：指定控制器可以处理哪些URL请求
+
+@RequestParam：获取请求参数的值
+
+@PathVariable：获取url中的数据
+
+@ResponseBody：读取Request请求的body部分数据绑定到要返回的对象上
+
+@RequestBody：将Controller的方法返回的对象写入到Response对象的body数据区
+
+@Configuration：定义配置类
+
+@EnableWebMvc：使用Java 注解快捷配置Spring Webmvc 导致错误是可删除
+
+@Transactional：事物管理，由spring管理方法或类保证原子性
